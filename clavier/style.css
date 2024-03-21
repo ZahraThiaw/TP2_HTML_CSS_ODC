@@ -1,0 +1,177 @@
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid #000000;*/
+    border-radius: 5px;
+    padding: 5px;
+    width: 80vw;
+    height: 50vh;
+    background-color: #a3a1a1;
+    color: white;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+p{
+    font-size: 18px;
+    margin-top: 30%;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.ligne1{
+    height: 12.5%;
+}
+.ligne2{
+    height: 17.5%;
+}
+.ligne3{
+    height: 17.5%;
+}
+.ligne4{
+    height: 17.5%;
+}
+.ligne5{
+    height: 17.5%;
+}
+.ligne6{
+    height: 17.5%;
+}
+.touch{
+    width: 7%;
+    background-color: #000;
+    margin: 3px;
+    border-radius: 5px;
+    box-shadow: #fff 2px 2px 2px 2px;
+}
+.touch1{
+    width: 87%;
+    background-color: #000;
+    margin: 3px;
+    border-radius: 5px;
+    box-shadow: #fff 2px 2px 2px 2px;
+}
+.touchlang{
+    width: 5%;
+    background-color: #000;
+    margin: 3px;
+    border-radius: 5px;
+    box-shadow: #fff 2px 2px 2px 2px;
+}
+.touchhautdroite{
+    width: 5%;
+    background-color: #000;
+    margin: 3px;
+    border-radius: 5px;
+    box-shadow: #fff 2px 2px 2px 2px;
+}
+.touchdelete{
+    width: 10.5%;
+    background-color: #7e0505;
+    margin: 3px;
+    border-radius: 5px;
+    box-shadow: #fff 2px 2px 2px 2px;
+}
+.touchtab{
+    width: 10.5%;
+    background-color: #7e0505;
+    margin: 3px;
+    border-radius: 5px;
+    box-shadow: #fff 2px 2px 2px 2px;
+}
+.touchmaj{
+    width: 12.25%;
+    background-color: #7e0505;
+    margin: 3px;
+    border-radius: 5px;
+    box-shadow: #fff 2px 2px 2px 2px;
+}
+.touchreturn{
+    width: 12.25%;
+    background-color: #7e0505;
+    margin: 3px;
+    border-radius: 5px;
+    box-shadow: #fff 2px 2px 2px 2px;
+}
+.touchshift{
+    width: 15.75%;
+    background-color: #7e0505;
+    margin: 3px;
+    border-radius: 5px;
+    box-shadow: #fff 2px 2px 2px 2px;
+}
+.touchcommand{
+    width: 10%;
+    background-color: #7e0505;
+    margin: 3px;
+    border-radius: 5px;
+    box-shadow: #fff 2px 2px 2px 2px;
+}
+.touchespacebas{
+    width: 39%;
+    background-color: #7e0505;
+    margin: 3px;
+    border-radius: 5px;
+    box-shadow: #fff 2px 2px 2px 2px;
+}
+.touchefleche{
+    display: flex;
+    justify-content: space-between;
+    width: 23%;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: #fff 2px 2px 2px 2px;
+    margin-bottom: 2px;
+}
+.touchinferieur{
+    width: 32%;
+    background-color: #000;
+    margin: 3px;
+    height: 45%;
+    position: absolute;
+    top: 41px;
+    left: 0;
+    border-radius: 5px;
+}
+.touchsuperieur{
+    width: 32%;
+    background-color: #000;
+    margin: 4px;
+    height: 45%;
+    position: absolute;
+    top: 41px;
+    right: -3px;
+    border-radius: 5px;
+}
+.touchup{
+    width: 32%;
+    height: 45%;
+    background-color: #000;
+    margin: 3px;
+    position: absolute;
+    left: 33.5%;
+    border-radius: 5px;
+}
+.touchdown{
+    width: 32%;
+    height: 45%;
+    background-color: #000;
+    margin: 3px;
+    position: absolute;
+    top: 41px;
+    left: 33.5%;
+    border-radius: 5px;
+}
